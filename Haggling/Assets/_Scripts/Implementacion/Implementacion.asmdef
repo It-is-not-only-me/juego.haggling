@@ -3,7 +3,8 @@
     "rootNamespace": "",
     "references": [
         "Economia",
-        "Preferencia"
+        "Preferencia",
+        "com.itisnotonlyme.sistema-de-tradeo.Editor"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
