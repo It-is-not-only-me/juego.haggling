@@ -1,0 +1,17 @@
+{
+    "name": "Implementacion",
+    "rootNamespace": "",
+    "references": [
+        "Economia",
+        "Preferencia"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
