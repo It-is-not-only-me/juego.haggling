@@ -11,9 +11,11 @@ public class Valor : Economia.IValor, Preferencia.IValor, ItIsNotOnlyMe.SistemaD
         _valor = valor;
     }
 
+    public uint ValorActual() => _valor;
+
     public bool ValorMayor(ItIsNotOnlyMe.SistemaDeTradeo.IValor valor) => ValorMayor(valor as Valor);
 
-    private bool ValorMayor(Valor valor) => _valor == valor._valor;
+    private bool ValorMayor(Valor valor) => _valor == valor.ValorActual();
 
     public bool ValorMayor(List<ItIsNotOnlyMe.SistemaDeTradeo.IValor> valores)
     {
