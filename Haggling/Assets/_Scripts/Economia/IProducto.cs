@@ -1,5 +1,5 @@
 
-namespace Economia
+namespace Haggling.Economia
 {
     public interface IProducto
     {

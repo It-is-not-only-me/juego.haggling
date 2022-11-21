@@ -1,4 +1,4 @@
-﻿namespace Preferencia
+﻿namespace Haggling.Preferencia
 {
     public interface IPreferencia
     {

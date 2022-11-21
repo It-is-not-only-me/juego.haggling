@@ -1,4 +1,4 @@
-﻿using Economia;
+﻿using Haggling.Economia;
 
 public partial class PruebasEconomia
 {

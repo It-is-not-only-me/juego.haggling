@@ -1,7 +1,6 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Economia
+namespace Haggling.Economia
 {
     public class ValoracionCompuesta : IValoracion
     {

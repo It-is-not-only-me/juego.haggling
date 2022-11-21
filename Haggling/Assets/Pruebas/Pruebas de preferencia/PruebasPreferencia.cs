@@ -2,7 +2,7 @@ using System.Collections;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
-using Preferencia;
+using Haggling.Preferencia;
 using System.Net.Http.Headers;
 
 public partial class PruebasPreferencia

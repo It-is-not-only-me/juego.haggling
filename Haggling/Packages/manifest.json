@@ -1,6 +1,11 @@
 {
   "dependencies": {
+    "com.itisnotonlyme.comunicacion-dinamica": "https://github.com/It-is-not-only-me/com.itisnotonlyme.comunicacion-dinamica.git",
+    "com.itisnotonlyme.inventario": "https://github.com/It-is-not-only-me/com.itisnotonlyme.inventario.git",
+    "com.itisnotonlyme.sistema-de-guardado": "https://github.com/It-is-not-only-me/com.itisnotonlyme.sistema-de-guardado.git",
+    "com.itisnotonlyme.sistema-de-reputacion": "https://github.com/It-is-not-only-me/com.itisnotonlyme.sistema-de-reputacion.git",
     "com.itisnotonlyme.sistema-de-tradeo": "https://github.com/It-is-not-only-me/com.itisnotonlyme.sistema-de-tradeo.git",
+    "com.itisnotonlyme.wave-function-collapse": "https://github.com/It-is-not-only-me/com.itisnotonlyme.wave-function-collapse.git",
     "com.unity.collab-proxy": "1.17.6",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.15",

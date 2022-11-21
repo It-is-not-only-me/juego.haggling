@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Preferencia;
+using Haggling.Preferencia;
 using System.Linq;
 
 public partial class PruebasPreferencia

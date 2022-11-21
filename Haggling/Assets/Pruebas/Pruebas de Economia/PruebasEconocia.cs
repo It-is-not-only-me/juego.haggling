@@ -1,5 +1,5 @@
 using NUnit.Framework;
-using Economia;
+using Haggling.Economia;
 
 public partial class PruebasEconomia
 {

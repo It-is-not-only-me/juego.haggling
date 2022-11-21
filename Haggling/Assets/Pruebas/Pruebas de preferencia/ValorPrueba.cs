@@ -1,4 +1,4 @@
-﻿using Preferencia;
+﻿using Haggling.Preferencia;
 
 public partial class PruebasPreferencia
 {

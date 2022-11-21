@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Preferencia
+namespace Haggling.Preferencia
 {
     public class PreferenciaCompuesto : IPreferencia
     {

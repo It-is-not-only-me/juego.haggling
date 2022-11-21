@@ -1,4 +1,5 @@
-﻿namespace Economia
+﻿
+namespace Haggling.Economia
 {
     public interface IValoracion
     {

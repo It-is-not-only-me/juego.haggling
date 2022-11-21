@@ -1,11 +1,46 @@
 {
   "dependencies": {
+    "com.itisnotonlyme.comunicacion-dinamica": {
+      "version": "https://github.com/It-is-not-only-me/com.itisnotonlyme.comunicacion-dinamica.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "703dc280427c82b4e7715daef456fef6c8c6f709"
+    },
+    "com.itisnotonlyme.inventario": {
+      "version": "https://github.com/It-is-not-only-me/com.itisnotonlyme.inventario.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "c773f2bf60c09b6ff7e9de73ccc36e6c069eda7d"
+    },
+    "com.itisnotonlyme.sistema-de-guardado": {
+      "version": "https://github.com/It-is-not-only-me/com.itisnotonlyme.sistema-de-guardado.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b611a5651ef409e07fa9cc4b606543df5d18c652"
+    },
+    "com.itisnotonlyme.sistema-de-reputacion": {
+      "version": "https://github.com/It-is-not-only-me/com.itisnotonlyme.sistema-de-reputacion.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "553a5cb47c502dd3cb4083ec48129b071d3e466a"
+    },
     "com.itisnotonlyme.sistema-de-tradeo": {
       "version": "https://github.com/It-is-not-only-me/com.itisnotonlyme.sistema-de-tradeo.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
       "hash": "c5d021099d1bcee712b9ae4384aec472e764f8d1"
+    },
+    "com.itisnotonlyme.wave-function-collapse": {
+      "version": "https://github.com/It-is-not-only-me/com.itisnotonlyme.wave-function-collapse.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "374cd91081600f10f37c4bfddb2f77196db3c992"
     },
     "com.unity.collab-proxy": {
       "version": "1.17.6",
@@ -35,12 +70,12 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.ide.visualstudio": "2.0.16",
-        "com.unity.ide.rider": "3.0.15",
-        "com.unity.ide.vscode": "1.2.5",
+        "com.unity.ide.visualstudio": "2.0.12",
+        "com.unity.ide.rider": "3.0.7",
+        "com.unity.ide.vscode": "1.2.4",
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.performance.profile-analyzer": "1.1.1",
-        "com.unity.test-framework": "1.1.31",
+        "com.unity.test-framework": "1.1.29",
         "com.unity.testtools.codecoverage": "1.0.1"
       }
     },
@@ -69,13 +104,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.nuget.newtonsoft-json": {
-      "version": "3.0.2",
-      "depth": 2,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.performance.profile-analyzer": {
       "version": "1.1.1",
       "depth": 1,
@@ -84,13 +112,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.core": {
-      "version": "1.5.2",
+      "version": "1.0.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.modules.unitywebrequest": "1.0.0",
-        "com.unity.nuget.newtonsoft-json": "3.0.2",
-        "com.unity.modules.androidjni": "1.0.0"
+        "com.unity.modules.unitywebrequest": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
