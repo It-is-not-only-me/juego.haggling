@@ -11,10 +11,10 @@ namespace Haggling.Core
 
     public class Persona : IPersona
     {
-        private List<IObjeto> _objetos;
+        private Inventario.IInventario _inventario;
         private ItIsNotOnlyMe.ComunicacionDinamica.Persona _comunicacion;
 
-        public void AgregarObjetos(ItIsNotOnlyMe.SistemaDeTradeo.IObjeto objeto) => _objetos.Add(objeto as IObjeto);
+        public void AgregarObjetos(ItIsNotOnlyMe.SistemaDeTradeo.IObjeto objeto) => _inventario.AgregarElemento(objeto as ItIsNotOnlyMe.Inventario.IElemento);
 
 
 
