@@ -1,55 +1,29 @@
 
-using System.Collections.Generic;
-
 namespace Haggling.Inventario
 {
-    public interface IInventario
+    public interface IInventario : ItIsNotOnlyMe.Inventario.IInventario
     {
-        public void AgregarElemento(ItIsNotOnlyMe.Inventario.IElemento elemento);
-    }
+        /// <summary>
+        ///     Agrega un elemento al inventario, en la posicion que pueda
+        /// </summary>
+        /// <param name="elemento"></param>
+        /// <returns>Devuelve true si pudo agregar el objeto</returns>
+        public bool AgregarElemento(IElemento elemento);
 
-    public class Inventario 
-    {
-        private ItIsNotOnlyMe.Inventario.IInventario _inventario;
+        /// <summary>
+        ///     Agrega un elemento en un espacio especifico
+        /// </summary>
+        /// <param name="elemento"></param>
+        /// <param name="espacio"></param>
+        /// <returns>Devuelve true si pudo eliminarlo</returns>
+        public bool AgregarElemento(IElemento elemento, IEspacio espacio);
 
-        public Inventario() 
-        {
-            _inventario = new ItIsNotOnlyMe.Inventario.Inventario();
-        }
-
-        public void AgregarElemento(ItIsNotOnlyMe.Inventario.IElemento elemento)
-        {
-            throw new System.NotImplementedException();
-        }   
-    }
-
-    public interface IEspacio : ItIsNotOnlyMe.Inventario.IEspacio
-    {
-
-    }
-
-    public class EspacioUnico : IEspacio
-    {
-        private ItIsNotOnlyMe.Inventario.IElemento _elemento;
-
-        public void AplicarOperacion(ItIsNotOnlyMe.Inventario.IOperacionElementos operacion) => operacion.Aplicar(_elemento);
-
-        public void AplicarOperacion(ItIsNotOnlyMe.Inventario.IOperacionEspacios operacion) => operacion.Aplicar(this);
-    }
-
-    public class EspacioStackeable : IEspacio
-    {
-        private List<ItIsNotOnlyMe.Inventario.IElemento> _elementos;
-        private uint _cantidadMaxima;
-
-        public EspacioStackeable(uint cantidadElementos)
-        {
-            _elementos = new List<ItIsNotOnlyMe.Inventario.IElemento>();
-            _cantidadMaxima = cantidadElementos;
-        }
-
-        public void AplicarOperacion(ItIsNotOnlyMe.Inventario.IOperacionElementos operacion) => _elementos.ForEach(elemento => operacion.Aplicar(elemento));
-
-        public void AplicarOperacion(ItIsNotOnlyMe.Inventario.IOperacionEspacios operacion) => operacion.Aplicar(this);
+        /// <summary>
+        ///     Elimina un elemento que esta en el inventario, en un espacio especifico
+        /// </summary>
+        /// <param name="elemento"></param>
+        /// <param name="espacio"></param>
+        /// <returns>Devuelve true si pudo eliminarlo</returns>
+        public bool EliminarElemento(IElemento elemento, IEspacio espacio);
     }
 }
