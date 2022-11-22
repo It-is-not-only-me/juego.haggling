@@ -1,7 +1,7 @@
 ﻿
 namespace Haggling.Core
 {
-    public interface IObjeto : Economia.IProducto, ItIsNotOnlyMe.SistemaDeTradeo.IObjeto, ItIsNotOnlyMe.Inventario.IElemento
+    public interface IObjeto : Economia.IProducto, ItIsNotOnlyMe.SistemaDeTradeo.IObjeto, Inventario.IElemento
     {
 
     }

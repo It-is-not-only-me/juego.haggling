@@ -15,11 +15,11 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 43.2
-    width: 1536
-    height: 868.8
+    y: 43
+    width: 1600
+    height: 817
   m_ShowMode: 4
-  m_Title: Package Manager
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -32,23 +32,24 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneHierarchyWindow
   m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 0
-    y: 30
-    width: 1536
-    height: 818.8
-  m_MinSize: {x: 300, y: 200}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 17
+    x: 985
+    y: 0
+    width: 272
+    height: 767
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -57,22 +58,22 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1172.8
-    y: 0
-    width: 363.19995
-    height: 818.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+    x: 0
+    y: 386
+    width: 673
+    height: 381
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -83,24 +84,23 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Children: []
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 3}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 290.4
-    height: 484.8
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 0
+    width: 673
+    height: 767
+  m_MinSize: {x: 100, y: 200}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 24
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -109,25 +109,26 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 484.8
-    width: 1172.8
-    height: 334
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 13}
+    y: 0
+    width: 673
+    height: 386
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 13}
   - {fileID: 18}
+  - {fileID: 17}
+  - {fileID: 15}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,14 +143,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 7}
-  - {fileID: 2}
+  - {fileID: 9}
   - {fileID: 8}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1536
-    height: 868.8
+    width: 1600
+    height: 817
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -173,7 +174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1536
+    width: 1600
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -194,8 +195,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 848.8
-    width: 1536
+    y: 797
+    width: 1600
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -207,23 +208,22 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 10}
-  - {fileID: 5}
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1172.8
-    height: 818.8
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
+    y: 30
+    width: 1600
+    height: 767
+  m_MinSize: {x: 400, y: 200}
+  m_MaxSize: {x: 32384, y: 16192}
   vertical: 1
-  controlID: 35
+  controlID: 51
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -239,16 +239,18 @@ MonoBehaviour:
   m_Children:
   - {fileID: 4}
   - {fileID: 11}
+  - {fileID: 2}
+  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1172.8
-    height: 484.8
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 8096}
+    width: 1600
+    height: 767
+  m_MinSize: {x: 400, y: 200}
+  m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 88
+  controlID: 52
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -257,25 +259,23 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: PackageManagerWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 290.4
+    x: 673
     y: 0
-    width: 882.4
-    height: 484.8
-  m_MinSize: {x: 802, y: 271}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 12}
+    width: 312
+    height: 767
+  m_MinSize: {x: 275, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
-  - {fileID: 17}
-  - {fileID: 12}
-  m_Selected: 2
+  m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -286,25 +286,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 13953, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 800, y: 250}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Package Manager
-    m_Image: {fileID: 5076950121296946556, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
+  m_Children: []
+  m_Position:
     serializedVersion: 2
-    x: 290.4
-    y: 73.6
-    width: 880.4
-    height: 463.8
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
+    x: 1257
+    y: 0
+    width: 343
+    height: 767
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -313,138 +311,90 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 558.4
-    width: 1171.8
-    height: 313
+    y: 459
+    width: 672
+    height: 360
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_SearchFilter:
-    m_NameFilter: 
-    m_ClassNames: []
-    m_AssetLabels: []
-    m_AssetBundleNames: []
-    m_VersionControlStates: []
-    m_SoftLockControlStates: []
-    m_ReferencingInstanceIDs: 
-    m_SceneHandles: 
-    m_ShowAllHits: 0
-    m_SkipHidden: 0
-    m_SearchArea: 1
-    m_Folders:
-    - Assets/Scenes
-    m_Globs: []
-    m_OriginalText: 
-  m_ViewMode: 1
-  m_StartGridSize: 64
-  m_LastFolders:
-  - Assets/Scenes
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\usuario\137\Proyectos\Unity\Juegos\Haggling\juego.haggling\Haggling
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d6590000
-    m_LastClickedID: 22998
-    m_ExpandedIDs: 00000000cc59000000ca9a3bffffff7f
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 00000000cc590000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-    m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
-  m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 672, y: 339}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -336
+    m_HBaseRangeMax: 336
+    m_VBaseRangeMin: -169.5
+    m_VBaseRangeMax: 169.5
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 672
+      height: 339
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 336, y: 169.5}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -336
+      y: -169.5
+      width: 672
+      height: 339
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 672, y: 360}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -453,63 +403,22 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1172.8
-    y: 73.6
-    width: 362.19995
-    height: 797.8
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_PreviewResizer:
-    m_CachedPref: 160
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
-  m_GlobalObjectId: 
-  m_InspectorMode: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewWindow: {fileID: 0}
---- !u!114 &15
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 73.6
-    width: 289.4
-    height: 463.8
+    x: 985
+    y: 73
+    width: 270
+    height: 746
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -519,7 +428,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 36fbffff
+      m_ExpandedIDs: 28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -535,15 +444,15 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 5}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &16
+  m_WindowGUID: 62130fad840e81c40be5349517ad43fd
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -551,22 +460,22 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 290.4
-    y: 73.6
-    width: 880.4
-    height: 463.8
+    x: 0
+    y: 73
+    width: 617
+    height: 365
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -577,7 +486,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -100, y: -25.600006}
+      snapOffsetDelta: {x: -101, y: -26}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -625,17 +534,6 @@ MonoBehaviour:
       snapCorner: 0
       id: unity-transform-toolbar
       index: 0
-      layout: 2
-    - dockPosition: 0
-      containerId: overlay-container--left
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 0, y: 197}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: unity-component-tools
-      index: 1
       layout: 2
     - dockPosition: 0
       containerId: overlay-container--right
@@ -769,29 +667,7 @@ MonoBehaviour:
       id: Scene View/Particles
       index: 10
       layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Tilemap
-      index: 11
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Tilemap Palette Helper
-      index: 12
-      layout: 4
-  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_WindowGUID: b4732f1654d6d4248886355e9b4887c8
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
@@ -881,6 +757,47 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 673
+    y: 73
+    width: 310
+    height: 746
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: -160
+    m_ControlHash: 1412526313
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 454
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -889,90 +806,1094 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 507
-    y: 94
-    width: 1532
-    height: 790
+    x: 8
+    y: 81
+    width: 648
+    height: 357
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1532, y: 769}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 0
-  m_EnterPlayModeBehavior: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -612.8
-    m_HBaseRangeMax: 612.8
-    m_VBaseRangeMin: -307.6
-    m_VBaseRangeMax: 307.6
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 1532
-      height: 769
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 766, y: 384.5}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -766
-      y: -384.5
-      width: 1532
-      height: 769
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1915, y: 987.5}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
+  m_Spl:
+    ID: 2527
+    splitterInitialOffset: 495
+    currentActiveSplitter: -1
+    realSizes:
+    - 182
+    - 105
+    relativeSizes:
+    - 0.6331361
+    - 0.3668639
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 287
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 17}
+    m_NewResultList:
+    - id: 1138
+      uniqueId: '[PackageMaker][suite]'
+      name: PackageMaker
+      fullName: PackageMaker
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    m_ResultText: TestMagiaConCostoLinealYIgual2XDevuelveMismaEnergia (0,004s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: e9718988
+      m_LastClickedID: -2004258327
+      m_ExpandedIDs: 6fa51c1ef9eb8725642f1d4a8029d374ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 17}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[Haggling][suite]'
+      name: Haggling
+      fullName: Haggling
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1008
+      uniqueId: '[com.itisnotonlyme.comunicacion-dinamica.Editor.Tests][C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll][suite]'
+      name: com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll
+      fullName: C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Haggling][suite]'
+    - id: 1001
+      uniqueId: com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll/[com.itisnotonlyme.comunicacion-dinamica.Editor.Tests][PersonaTest][suite]
+      name: PersonaTest
+      fullName: PersonaTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1008
+      parentUniqueId: '[com.itisnotonlyme.comunicacion-dinamica.Editor.Tests][C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll][suite]'
+    - id: 1002
+      uniqueId: com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll/PersonaTest/[com.itisnotonlyme.comunicacion-dinamica.Editor.Tests][PersonaTest.Test01PersonaCreaUnVinculoYReceptorRecibeElMensaje]
+      name: Test01PersonaCreaUnVinculoYReceptorRecibeElMensaje
+      fullName: PersonaTest.Test01PersonaCreaUnVinculoYReceptorRecibeElMensaje
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll/[com.itisnotonlyme.comunicacion-dinamica.Editor.Tests][PersonaTest][suite]
+    - id: 1003
+      uniqueId: com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll/PersonaTest/[com.itisnotonlyme.comunicacion-dinamica.Editor.Tests][PersonaTest.Test02PersonaCreaUnVinculoYReceptorNoSuficientementeImportanteNoRecibeElMensaje]
+      name: Test02PersonaCreaUnVinculoYReceptorNoSuficientementeImportanteNoRecibeElMensaje
+      fullName: PersonaTest.Test02PersonaCreaUnVinculoYReceptorNoSuficientementeImportanteNoRecibeElMensaje
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll/[com.itisnotonlyme.comunicacion-dinamica.Editor.Tests][PersonaTest][suite]
+    - id: 1004
+      uniqueId: com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll/PersonaTest/[com.itisnotonlyme.comunicacion-dinamica.Editor.Tests][PersonaTest.Test03CadenaDeTresPersonasRecibenElMensaje]
+      name: Test03CadenaDeTresPersonasRecibenElMensaje
+      fullName: PersonaTest.Test03CadenaDeTresPersonasRecibenElMensaje
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll/[com.itisnotonlyme.comunicacion-dinamica.Editor.Tests][PersonaTest][suite]
+    - id: 1005
+      uniqueId: com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll/PersonaTest/[com.itisnotonlyme.comunicacion-dinamica.Editor.Tests][PersonaTest.Test04CadenaDeTresPersonaConLoopRecibenElMensaje]
+      name: Test04CadenaDeTresPersonaConLoopRecibenElMensaje
+      fullName: PersonaTest.Test04CadenaDeTresPersonaConLoopRecibenElMensaje
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll/[com.itisnotonlyme.comunicacion-dinamica.Editor.Tests][PersonaTest][suite]
+    - id: 1006
+      uniqueId: com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll/PersonaTest/[com.itisnotonlyme.comunicacion-dinamica.Editor.Tests][PersonaTest.Test05DosCaminosParaLlegarAUnaPersonaPeroUnoSinSuficienteImportancia]
+      name: Test05DosCaminosParaLlegarAUnaPersonaPeroUnoSinSuficienteImportancia
+      fullName: PersonaTest.Test05DosCaminosParaLlegarAUnaPersonaPeroUnoSinSuficienteImportancia
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll/[com.itisnotonlyme.comunicacion-dinamica.Editor.Tests][PersonaTest][suite]
+    - id: 1007
+      uniqueId: com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll/PersonaTest/[com.itisnotonlyme.comunicacion-dinamica.Editor.Tests][PersonaTest.Test06DosCaminosPeroAlActualizarNoHayCamino]
+      name: Test06DosCaminosPeroAlActualizarNoHayCamino
+      fullName: PersonaTest.Test06DosCaminosPeroAlActualizarNoHayCamino
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: com.itisnotonlyme.comunicacion-dinamica.Editor.Tests.dll/[com.itisnotonlyme.comunicacion-dinamica.Editor.Tests][PersonaTest][suite]
+    - id: 1018
+      uniqueId: '[com.itisnotonlyme.inventario.Editor.Tests][C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/com.itisnotonlyme.inventario.Editor.Tests.dll][suite]'
+      name: com.itisnotonlyme.inventario.Editor.Tests.dll
+      fullName: C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/com.itisnotonlyme.inventario.Editor.Tests.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Haggling][suite]'
+    - id: 1001
+      uniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest][suite]
+      name: InventarioTest
+      fullName: InventarioTest
+      resultStatus: 1
+      duration: 0.005294
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1003
+      parentUniqueId: '[com.itisnotonlyme.inventario.Editor.Tests][C:/Users/juanh/137v/proyectos/UnityPackeage/PackageMaker/PackageMaker/Library/ScriptAssemblies/com.itisnotonlyme.inventario.Editor.Tests.dll][suite]'
+    - id: 1010
+      uniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/InventarioTest/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest.Test01InventarioEmpiezaSinEspacio]
+      name: Test01InventarioEmpiezaSinEspacio
+      fullName: InventarioTest.Test01InventarioEmpiezaSinEspacio
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest][suite]
+    - id: 1011
+      uniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/InventarioTest/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest.Test02InventarioSinEspacioNoPuedeAgregarNada]
+      name: Test02InventarioSinEspacioNoPuedeAgregarNada
+      fullName: InventarioTest.Test02InventarioSinEspacioNoPuedeAgregarNada
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest][suite]
+    - id: 1012
+      uniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/InventarioTest/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest.Test03InventarioAgregandoleUnEspacioTieneEspacio]
+      name: Test03InventarioAgregandoleUnEspacioTieneEspacio
+      fullName: InventarioTest.Test03InventarioAgregandoleUnEspacioTieneEspacio
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest][suite]
+    - id: 1013
+      uniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/InventarioTest/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest.Test04InventarioConEspacioSeAgregaSePuedeAgregarUnElemento]
+      name: Test04InventarioConEspacioSeAgregaSePuedeAgregarUnElemento
+      fullName: InventarioTest.Test04InventarioConEspacioSeAgregaSePuedeAgregarUnElemento
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest][suite]
+    - id: 1014
+      uniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/InventarioTest/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest.Test05InventarioConEspacioParaElementosEspecificosNoTieneEspacioParaOtrosElementos]
+      name: Test05InventarioConEspacioParaElementosEspecificosNoTieneEspacioParaOtrosElementos
+      fullName: InventarioTest.Test05InventarioConEspacioParaElementosEspecificosNoTieneEspacioParaOtrosElementos
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest][suite]
+    - id: 1015
+      uniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/InventarioTest/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest.Test06InventarioSeAgreganTresElementosYSeDevuelvenLaMismaCantidad]
+      name: Test06InventarioSeAgreganTresElementosYSeDevuelvenLaMismaCantidad
+      fullName: InventarioTest.Test06InventarioSeAgreganTresElementosYSeDevuelvenLaMismaCantidad
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest][suite]
+    - id: 1016
+      uniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/InventarioTest/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest.Test07InventarioNoSePuedeEliminarElementoQueNoTiene]
+      name: Test07InventarioNoSePuedeEliminarElementoQueNoTiene
+      fullName: InventarioTest.Test07InventarioNoSePuedeEliminarElementoQueNoTiene
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest][suite]
+    - id: 1017
+      uniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/InventarioTest/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest.Test08InventarioDisminuyeLaCantidadConLaCantidadDeElementosDespuesDeEliminarUnElemento]
+      name: Test08InventarioDisminuyeLaCantidadConLaCantidadDeElementosDespuesDeEliminarUnElemento
+      fullName: InventarioTest.Test08InventarioDisminuyeLaCantidadConLaCantidadDeElementosDespuesDeEliminarUnElemento
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: com.itisnotonlyme.inventario.Editor.Tests.dll/[com.itisnotonlyme.inventario.Editor.Tests][InventarioTest][suite]
+    - id: 1026
+      uniqueId: '[com.itisnotonlyme.sistema-de-reputacion.Editor.Tests][C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll][suite]'
+      name: com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll
+      fullName: C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Haggling][suite]'
+    - id: 1019
+      uniqueId: com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll/[com.itisnotonlyme.sistema-de-reputacion.Editor.Tests][EvaluacionTest][suite]
+      name: EvaluacionTest
+      fullName: EvaluacionTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1026
+      parentUniqueId: '[com.itisnotonlyme.sistema-de-reputacion.Editor.Tests][C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll][suite]'
+    - id: 1020
+      uniqueId: com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll/EvaluacionTest/[com.itisnotonlyme.sistema-de-reputacion.Editor.Tests][EvaluacionTest.Test01EvaluacionSinPreferenciaResultaNula]
+      name: Test01EvaluacionSinPreferenciaResultaNula
+      fullName: EvaluacionTest.Test01EvaluacionSinPreferenciaResultaNula
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll/[com.itisnotonlyme.sistema-de-reputacion.Editor.Tests][EvaluacionTest][suite]
+    - id: 1021
+      uniqueId: com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll/EvaluacionTest/[com.itisnotonlyme.sistema-de-reputacion.Editor.Tests][EvaluacionTest.Test02EvaluacionConPreferenciaDeLaMismaOrientacionResultaPositiva]
+      name: Test02EvaluacionConPreferenciaDeLaMismaOrientacionResultaPositiva
+      fullName: EvaluacionTest.Test02EvaluacionConPreferenciaDeLaMismaOrientacionResultaPositiva
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll/[com.itisnotonlyme.sistema-de-reputacion.Editor.Tests][EvaluacionTest][suite]
+    - id: 1022
+      uniqueId: com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll/EvaluacionTest/[com.itisnotonlyme.sistema-de-reputacion.Editor.Tests][EvaluacionTest.Test03EvaluacionConPreferenciaDeOrientacionOpuestasResultaNegativo]
+      name: Test03EvaluacionConPreferenciaDeOrientacionOpuestasResultaNegativo
+      fullName: EvaluacionTest.Test03EvaluacionConPreferenciaDeOrientacionOpuestasResultaNegativo
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll/[com.itisnotonlyme.sistema-de-reputacion.Editor.Tests][EvaluacionTest][suite]
+    - id: 1023
+      uniqueId: com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll/EvaluacionTest/[com.itisnotonlyme.sistema-de-reputacion.Editor.Tests][EvaluacionTest.Test04EvaluacionConPreferenciaOrtogonalesResultaNula]
+      name: Test04EvaluacionConPreferenciaOrtogonalesResultaNula
+      fullName: EvaluacionTest.Test04EvaluacionConPreferenciaOrtogonalesResultaNula
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll/[com.itisnotonlyme.sistema-de-reputacion.Editor.Tests][EvaluacionTest][suite]
+    - id: 1024
+      uniqueId: com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll/EvaluacionTest/[com.itisnotonlyme.sistema-de-reputacion.Editor.Tests][EvaluacionTest.Test05EvaluacionConDosPrefereciaOpuestasAUnaMismaAccionResultaNula]
+      name: Test05EvaluacionConDosPrefereciaOpuestasAUnaMismaAccionResultaNula
+      fullName: EvaluacionTest.Test05EvaluacionConDosPrefereciaOpuestasAUnaMismaAccionResultaNula
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll/[com.itisnotonlyme.sistema-de-reputacion.Editor.Tests][EvaluacionTest][suite]
+    - id: 1025
+      uniqueId: com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll/EvaluacionTest/[com.itisnotonlyme.sistema-de-reputacion.Editor.Tests][EvaluacionTest.Test05EvaluacionConMasPreferenciaAFavorQueInversasResultaPositiva]
+      name: Test05EvaluacionConMasPreferenciaAFavorQueInversasResultaPositiva
+      fullName: EvaluacionTest.Test05EvaluacionConMasPreferenciaAFavorQueInversasResultaPositiva
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: com.itisnotonlyme.sistema-de-reputacion.Editor.Tests.dll/[com.itisnotonlyme.sistema-de-reputacion.Editor.Tests][EvaluacionTest][suite]
+    - id: 1033
+      uniqueId: '[com.itisnotonlyme.sistema-de-tradeo.Editor.Tests][C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/com.itisnotonlyme.sistema-de-tradeo.Editor.Tests.dll][suite]'
+      name: com.itisnotonlyme.sistema-de-tradeo.Editor.Tests.dll
+      fullName: C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/com.itisnotonlyme.sistema-de-tradeo.Editor.Tests.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Haggling][suite]'
+    - id: 1027
+      uniqueId: com.itisnotonlyme.sistema-de-tradeo.Editor.Tests.dll/[com.itisnotonlyme.sistema-de-tradeo.Editor.Tests][TradeoTest][suite]
+      name: TradeoTest
+      fullName: TradeoTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1033
+      parentUniqueId: '[com.itisnotonlyme.sistema-de-tradeo.Editor.Tests][C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/com.itisnotonlyme.sistema-de-tradeo.Editor.Tests.dll][suite]'
+    - id: 1028
+      uniqueId: com.itisnotonlyme.sistema-de-tradeo.Editor.Tests.dll/TradeoTest/[com.itisnotonlyme.sistema-de-tradeo.Editor.Tests][TradeoTest.Test01PersonaSinObjetosNoPuedeSaldarDeuda]
+      name: Test01PersonaSinObjetosNoPuedeSaldarDeuda
+      fullName: TradeoTest.Test01PersonaSinObjetosNoPuedeSaldarDeuda
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: com.itisnotonlyme.sistema-de-tradeo.Editor.Tests.dll/[com.itisnotonlyme.sistema-de-tradeo.Editor.Tests][TradeoTest][suite]
+    - id: 1029
+      uniqueId: com.itisnotonlyme.sistema-de-tradeo.Editor.Tests.dll/TradeoTest/[com.itisnotonlyme.sistema-de-tradeo.Editor.Tests][TradeoTest.Test02PersonaConValorEquivalenteSaldaLaDeuda]
+      name: Test02PersonaConValorEquivalenteSaldaLaDeuda
+      fullName: TradeoTest.Test02PersonaConValorEquivalenteSaldaLaDeuda
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: com.itisnotonlyme.sistema-de-tradeo.Editor.Tests.dll/[com.itisnotonlyme.sistema-de-tradeo.Editor.Tests][TradeoTest][suite]
+    - id: 1030
+      uniqueId: com.itisnotonlyme.sistema-de-tradeo.Editor.Tests.dll/TradeoTest/[com.itisnotonlyme.sistema-de-tradeo.Editor.Tests][TradeoTest.Test03PersonaConMenosQueLaDeudaNoPuedeSaldarDeuda]
+      name: Test03PersonaConMenosQueLaDeudaNoPuedeSaldarDeuda
+      fullName: TradeoTest.Test03PersonaConMenosQueLaDeudaNoPuedeSaldarDeuda
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: com.itisnotonlyme.sistema-de-tradeo.Editor.Tests.dll/[com.itisnotonlyme.sistema-de-tradeo.Editor.Tests][TradeoTest][suite]
+    - id: 1031
+      uniqueId: com.itisnotonlyme.sistema-de-tradeo.Editor.Tests.dll/TradeoTest/[com.itisnotonlyme.sistema-de-tradeo.Editor.Tests][TradeoTest.Test04SePuedeUsarLaPromesaDeUnObjetoParaSaldarUnaDeuda]
+      name: Test04SePuedeUsarLaPromesaDeUnObjetoParaSaldarUnaDeuda
+      fullName: TradeoTest.Test04SePuedeUsarLaPromesaDeUnObjetoParaSaldarUnaDeuda
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: com.itisnotonlyme.sistema-de-tradeo.Editor.Tests.dll/[com.itisnotonlyme.sistema-de-tradeo.Editor.Tests][TradeoTest][suite]
+    - id: 1032
+      uniqueId: com.itisnotonlyme.sistema-de-tradeo.Editor.Tests.dll/TradeoTest/[com.itisnotonlyme.sistema-de-tradeo.Editor.Tests][TradeoTest.Test05AUnaPersonaSeLeExigeLoPrometido]
+      name: Test05AUnaPersonaSeLeExigeLoPrometido
+      fullName: TradeoTest.Test05AUnaPersonaSeLeExigeLoPrometido
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: com.itisnotonlyme.sistema-de-tradeo.Editor.Tests.dll/[com.itisnotonlyme.sistema-de-tradeo.Editor.Tests][TradeoTest][suite]
+    - id: 1046
+      uniqueId: '[com.itisnotonlyme.wave-function-collapse.Editor.Tests][C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll][suite]'
+      name: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll
+      fullName: C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Haggling][suite]'
+    - id: 1034
+      uniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest][suite]
+      name: WaveFunctionCollapseTest
+      fullName: WaveFunctionCollapseTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1046
+      parentUniqueId: '[com.itisnotonlyme.wave-function-collapse.Editor.Tests][C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll][suite]'
+    - id: 1035
+      uniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/WaveFunctionCollapseTest/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest.Test01LaEntropiaDeUnNodoSinEstadosEsCero]
+      name: Test01LaEntropiaDeUnNodoSinEstadosEsCero
+      fullName: WaveFunctionCollapseTest.Test01LaEntropiaDeUnNodoSinEstadosEsCero
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest][suite]
+    - id: 1036
+      uniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/WaveFunctionCollapseTest/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest.Test02LaEntropiaEsIgualALaCantidadDeEstados]
+      name: Test02LaEntropiaEsIgualALaCantidadDeEstados
+      fullName: WaveFunctionCollapseTest.Test02LaEntropiaEsIgualALaCantidadDeEstados
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest][suite]
+    - id: 1037
+      uniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/WaveFunctionCollapseTest/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest.Test03LaEntropiaSeVuelveUnoAlTenerEstadosYAlColapsarSuEstados]
+      name: Test03LaEntropiaSeVuelveUnoAlTenerEstadosYAlColapsarSuEstados
+      fullName: WaveFunctionCollapseTest.Test03LaEntropiaSeVuelveUnoAlTenerEstadosYAlColapsarSuEstados
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest][suite]
+    - id: 1038
+      uniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/WaveFunctionCollapseTest/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest.Test04ConDosNodosSePropagaLaPropabilidadYSusEntopiasSonUno]
+      name: Test04ConDosNodosSePropagaLaPropabilidadYSusEntopiasSonUno
+      fullName: WaveFunctionCollapseTest.Test04ConDosNodosSePropagaLaPropabilidadYSusEntopiasSonUno
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest][suite]
+    - id: 1039
+      uniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/WaveFunctionCollapseTest/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest.Test05ConTresNodosVinculadosEnListaSePropagaLaProbabilidadYSusEntropiasSonUnoDosTres]
+      name: Test05ConTresNodosVinculadosEnListaSePropagaLaProbabilidadYSusEntropiasSonUnoDosTres
+      fullName: WaveFunctionCollapseTest.Test05ConTresNodosVinculadosEnListaSePropagaLaProbabilidadYSusEntropiasSonUnoDosTres
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest][suite]
+    - id: 1040
+      uniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/WaveFunctionCollapseTest/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest.Test06ConTresNodosEnTrianguloAlColapsarUnoElRestoTieneDosDeEntropiaYColapsarUnoDeLosRestantesEsUno]
+      name: Test06ConTresNodosEnTrianguloAlColapsarUnoElRestoTieneDosDeEntropiaYColapsarUnoDeLosRestantesEsUno
+      fullName: WaveFunctionCollapseTest.Test06ConTresNodosEnTrianguloAlColapsarUnoElRestoTieneDosDeEntropiaYColapsarUnoDeLosRestantesEsUno
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest][suite]
+    - id: 1041
+      uniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/WaveFunctionCollapseTest/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest.Test07ConTresNodosEnTrianguloAlUsarElAlgoritmoTodasLasEntropiasSonUno]
+      name: Test07ConTresNodosEnTrianguloAlUsarElAlgoritmoTodasLasEntropiasSonUno
+      fullName: WaveFunctionCollapseTest.Test07ConTresNodosEnTrianguloAlUsarElAlgoritmoTodasLasEntropiasSonUno
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest][suite]
+    - id: 1042
+      uniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/WaveFunctionCollapseTest/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest.Test08ConCuatrosNodosTodosVinculadosConTodosAlUsarElAlgoritmoTodasLasEntropiasSonUno]
+      name: Test08ConCuatrosNodosTodosVinculadosConTodosAlUsarElAlgoritmoTodasLasEntropiasSonUno
+      fullName: WaveFunctionCollapseTest.Test08ConCuatrosNodosTodosVinculadosConTodosAlUsarElAlgoritmoTodasLasEntropiasSonUno
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest][suite]
+    - id: 1043
+      uniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/WaveFunctionCollapseTest/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest.Test09ConNueveNodosTodosVinculadosConTodosAlUsarElAlgoritmoTodosLasEntropiasSonUno]
+      name: Test09ConNueveNodosTodosVinculadosConTodosAlUsarElAlgoritmoTodosLasEntropiasSonUno
+      fullName: WaveFunctionCollapseTest.Test09ConNueveNodosTodosVinculadosConTodosAlUsarElAlgoritmoTodosLasEntropiasSonUno
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest][suite]
+    - id: 1044
+      uniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/WaveFunctionCollapseTest/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest.Test10SudokuDe4x4SeResuelveYTodasLasEntropiasSonUno]
+      name: Test10SudokuDe4x4SeResuelveYTodasLasEntropiasSonUno
+      fullName: WaveFunctionCollapseTest.Test10SudokuDe4x4SeResuelveYTodasLasEntropiasSonUno
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest][suite]
+    - id: 1045
+      uniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/WaveFunctionCollapseTest/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest.Test11SudokuDe4x4ConAlgunosNodosColapsadosTerminaConTodosSusEntropiasEnUno]
+      name: Test11SudokuDe4x4ConAlgunosNodosColapsadosTerminaConTodosSusEntropiasEnUno
+      fullName: WaveFunctionCollapseTest.Test11SudokuDe4x4ConAlgunosNodosColapsadosTerminaConTodosSusEntropiasEnUno
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: com.itisnotonlyme.wave-function-collapse.Editor.Tests.dll/[com.itisnotonlyme.wave-function-collapse.Editor.Tests][WaveFunctionCollapseTest][suite]
+    - id: 1056
+      uniqueId: '[Pruebas][C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/Pruebas.dll][suite]'
+      name: Pruebas.dll
+      fullName: C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/Pruebas.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Haggling][suite]'
+    - id: 1047
+      uniqueId: Pruebas.dll/[Pruebas][PruebasEconomia][suite]
+      name: PruebasEconomia
+      fullName: PruebasEconomia
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1056
+      parentUniqueId: '[Pruebas][C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/Pruebas.dll][suite]'
+    - id: 1048
+      uniqueId: Pruebas.dll/PruebasEconomia/[Pruebas][PruebasEconomia.Test01LaValoracionCompuestaSinValoracionesDevuelveElMismoValorBase]
+      name: Test01LaValoracionCompuestaSinValoracionesDevuelveElMismoValorBase
+      fullName: PruebasEconomia.Test01LaValoracionCompuestaSinValoracionesDevuelveElMismoValorBase
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1047
+      parentUniqueId: Pruebas.dll/[Pruebas][PruebasEconomia][suite]
+    - id: 1049
+      uniqueId: Pruebas.dll/PruebasEconomia/[Pruebas][PruebasEconomia.Test02LaValoracionCompuestaTieneUnaValoracionDevuelveElValorBaseModificado]
+      name: Test02LaValoracionCompuestaTieneUnaValoracionDevuelveElValorBaseModificado
+      fullName: PruebasEconomia.Test02LaValoracionCompuestaTieneUnaValoracionDevuelveElValorBaseModificado
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1047
+      parentUniqueId: Pruebas.dll/[Pruebas][PruebasEconomia][suite]
+    - id: 1050
+      uniqueId: Pruebas.dll/PruebasEconomia/[Pruebas][PruebasEconomia.Test03LaVacoracionCompuestaTieneMuchasValoracionesDevuelveElValorBaseModificado]
+      name: Test03LaVacoracionCompuestaTieneMuchasValoracionesDevuelveElValorBaseModificado
+      fullName: PruebasEconomia.Test03LaVacoracionCompuestaTieneMuchasValoracionesDevuelveElValorBaseModificado
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1047
+      parentUniqueId: Pruebas.dll/[Pruebas][PruebasEconomia][suite]
+    - id: 1051
+      uniqueId: Pruebas.dll/PruebasEconomia/[Pruebas][PruebasEconomia.Test04MismoProductoConDiferentesValoracionesTieneDiferentesValores]
+      name: Test04MismoProductoConDiferentesValoracionesTieneDiferentesValores
+      fullName: PruebasEconomia.Test04MismoProductoConDiferentesValoracionesTieneDiferentesValores
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1047
+      parentUniqueId: Pruebas.dll/[Pruebas][PruebasEconomia][suite]
+    - id: 1052
+      uniqueId: Pruebas.dll/PruebasEconomia/[Pruebas][PruebasEconomia.Test05DiferentesProductosConLaMismaValoracionTienenElMismoValor]
+      name: Test05DiferentesProductosConLaMismaValoracionTienenElMismoValor
+      fullName: PruebasEconomia.Test05DiferentesProductosConLaMismaValoracionTienenElMismoValor
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1047
+      parentUniqueId: Pruebas.dll/[Pruebas][PruebasEconomia][suite]
+    - id: 1053
+      uniqueId: Pruebas.dll/[Pruebas][PruebasPreferencia][suite]
+      name: PruebasPreferencia
+      fullName: PruebasPreferencia
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1056
+      parentUniqueId: '[Pruebas][C:/Users/juanh/137v/proyectos/Juego.Haggling/juego.haggling/Haggling/Library/ScriptAssemblies/Pruebas.dll][suite]'
+    - id: 1054
+      uniqueId: Pruebas.dll/PruebasPreferencia/[Pruebas][PruebasPreferencia.Test01PreferenciaNoModificaElValorBaseAlNoCoincidirLaCaracteristica]
+      name: Test01PreferenciaNoModificaElValorBaseAlNoCoincidirLaCaracteristica
+      fullName: PruebasPreferencia.Test01PreferenciaNoModificaElValorBaseAlNoCoincidirLaCaracteristica
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1053
+      parentUniqueId: Pruebas.dll/[Pruebas][PruebasPreferencia][suite]
+    - id: 1055
+      uniqueId: Pruebas.dll/PruebasPreferencia/[Pruebas][PruebasPreferencia.Test02PreferenciaModificaElValorBaseAlCoincidirLaCaracteristica]
+      name: Test02PreferenciaModificaElValorBaseAlCoincidirLaCaracteristica
+      fullName: PruebasPreferencia.Test02PreferenciaModificaElValorBaseAlCoincidirLaCaracteristica
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1053
+      parentUniqueId: Pruebas.dll/[Pruebas][PruebasPreferencia][suite]
+    m_ResultText: Test01UnContenedorSinIngredientesDaUnaPosionIgualAlEstadoInicial
+      (0,000s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: a3580d13
+      m_LastClickedID: 319641763
+      m_ExpandedIDs: 216899a3ee0704a724c749c0c8b906d14d604616f9eb872583a2b825fad2582bae52f533afa49c439af12147642f1d4a439a994ec17fa379ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -981,7 +1902,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -989,15 +1910,153 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 0
+    y: 73
+    width: 672
+    height: 365
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1257
+    y: 73
+    width: 342
+    height: 746
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders: []
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 0
+  m_StartGridSize: 64
+  m_LastFolders: []
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\juanh\137v\proyectos\Juego.Haggling\juego.haggling\Haggling
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 683d0000
+    m_LastClickedID: 15720
+    m_ExpandedIDs: 00000000625900006459000066590000685900006a5900006c5900006e59000070590000725900007459000076590000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: ffffffff00000000625900006459000066590000685900006a5900006c5900006e59000070590000725900007459000076590000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 12}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 276

@@ -14,7 +14,7 @@ namespace Haggling.Core
         private Inventario.IInventario _inventario;
         private ItIsNotOnlyMe.ComunicacionDinamica.Persona _comunicacion;
 
-        public void AgregarObjetos(ItIsNotOnlyMe.SistemaDeTradeo.IObjeto objeto) => _inventario.AgregarElemento(objeto as ItIsNotOnlyMe.Inventario.IElemento);
+        public void AgregarObjetos(ItIsNotOnlyMe.SistemaDeTradeo.IObjeto objeto) => _inventario.AgregarElemento(objeto as Inventario.IElemento);
 
 
 
